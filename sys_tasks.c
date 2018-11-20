@@ -8,14 +8,17 @@
 #include "general.h"
 #include "sys_tasks.h"
 
+#include "mcal_init.h"
+
 void TASK_Inits()
 {
-
+    MCAL_vInit();
+    GPIO_u8WritePortPin(PORT_A, 10, DIGITAL, OUTPUT);	
 }
 
 void TASK_1ms()
 {
-    
+
 }
 
 void TASK_5ms()
