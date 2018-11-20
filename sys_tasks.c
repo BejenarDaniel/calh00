@@ -8,8 +8,6 @@
 #include "general.h"
 #include "sys_tasks.h"
 
-extern BOOL bObstDetected;
-
 void TASK_Inits()
 {
 
